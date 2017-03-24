@@ -1,10 +1,12 @@
 ---
 layout: home
 ---
-# About Theme
+# About Me
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
-
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
-
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+- Always ready to food round, have had lots of fun with [Yelp dataset](https://www.yelp.com/dataset_challenge).
+- New to Spark
+- Sort of familiar with R, especially `{dplyr}`, `{ggplot2}` and `{igraph}`.
+- Link prediction problems is intreseting.
+- Have had a ferry trip in DJI summer camp and met a lovely boy, we autopiloted a 6kg drone.
+- Use to have 3 RC model planes, the biggest one have a wing span of 2.6 meters.
+- Have solid control theory framework stay in mind.
