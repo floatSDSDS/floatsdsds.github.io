@@ -89,4 +89,4 @@ Sys.setenv(JAVA_HOME="/usr/lib/jdk/jdk1.8.0_121")
 ```
 
 -----
-#### Problems remains: I still get confused with where this system environment stored, I thought it should be `/etc/environment` before.
+#### Problem remains: I still get confused with where this system environment stored, I thought it should be `/etc/environment` before.
