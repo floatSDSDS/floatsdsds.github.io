@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sparklyr finally successfully connected to Spark"
+title: "sparklyr finally connected to Spark"
 excerpt: "I followed [offical tutorial](http://spark.rstudio.com/) at first,
 but it does not work will either with a unstable network environment or
 a fresh system."
