@@ -17,7 +17,7 @@ Have had a ferry trip in DJI summer camp and met a lovely boy, we auto-piloted a
 
 Use to have 3 RC model planes, the biggest one have a wing span of 2.6 meters.
 
-Have solid control theory framework stay in mind.
+Have a solid control theory framework stay in mind.
 
 appreciate to this silly but beautiful World.
 
