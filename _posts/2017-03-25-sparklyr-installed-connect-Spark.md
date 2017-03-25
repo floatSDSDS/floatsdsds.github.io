@@ -33,7 +33,7 @@ At first, I followed the official tutorial as every one else
 would prefer. It seems pretty simple, the only thing I need to
 do is type following code and run it.
 
-```C
+```
 install.packages("sparklyr")
 library(sparklyr)
 spark_install(version = "1.6.2")
@@ -46,13 +46,15 @@ the code.
 
 To solve the problem I found another command when typing `?spark_install`,
 install spark from a tar file.
-```C
+
+```
 spark_install_tar(tarfile)
 ```
 So I used a download manager(there are lots of good Linux download
 managers like uGet, SteadyFlow, kGet, XDM, etc.). At last, you can
 check for the installing path and version.
-```C
+
+```
 spark_installed_versions()
 spark_install_dir()
 ```
@@ -61,12 +63,12 @@ spark_install_dir()
 Speak at the first: I have set JAVA_HOME variables both in `/etc/profile`
 and `/etc/environment` and source them after changes.
 
-```C
+```
 > sc <- spark_connect(master = "local")
 ```
 I met the second problem when connecting Spark.
 
-```C
+```
 Error in force(code) :
   Failed while connecting to sparklyr to port (8880) for sessionid (6026): Gateway in port (8880) did not respond.
 Path: /home/floatsd/.cache/spark/spark-1.6.2-bin-hadoop2.6/bin/spark-submit
@@ -81,8 +83,8 @@ Parameters: --class, sparklyr.Backend, --jars, '/home/floatsd/R/x86_64-pc-linux-
 
 Since it claims `JAVA_HOME is not set`, I set JAVA_HOME using R
 command `Sys.setenv`as below.
-```C
 
+```
 Sys.setenv(JAVA_HOME="/usr/lib/jdk/jdk1.8.0_121")
 ```
 
