@@ -9,7 +9,7 @@ New to Spark.
 
 Sort of familiar with R, especially `{dplyr}`, `{ggplot2}` and `{igraph}`.
 
-Have a overview comprehensive over Recommender Systems.
+Have a comprehensive over Recommender Systems.
 
 Link Prediction problems are interesting.
 
@@ -19,6 +19,6 @@ Use to have 3 RC model planes, the biggest one have a wing span of 2.6 meters.
 
 Have solid control theory framework stay in mind.
 
-appreciated to this silly but beautiful World.
+appreciate to this silly but beautiful World.
 
 :)
