@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "用sparklyr安装病连接Spark"
-excerpt: "一开始是跟[官方教程](http://spark.rstudio.com/)走的，然而很明显官方教程中并未包含环境配置，`spark_install`命令也没有对断点传输进行优化"
+title: "用sparklyr安装并连接Spark"
+excerpt: "嘛，一开始是跟官方教程走的，然而很明显官方教程中并未包含环境配置，`spark_install`命令也没有对断点传输进行优化"
 tags:
   - Coding
   - Bugs
@@ -12,7 +12,7 @@ tags:
 
 
 ## 梗概
-- 新电脑刚到，本文主要描述我在纯使用R的相关包`sparklyr`安装病连接Spark的经验，并主要解决两个官方教程和随表搜出来的教程中没有的两个问题：
+- 本文主要描述在纯使用R的相关包`sparklyr`安装并连接Spark的经验，并主要解决两个官方教程和网上教程中没有的两个问题：
   1. 在不稳定的网络环境下用压缩包*.tar安装Spark
   2. 设置系统环境变量JAVA_HOME
 - 环境：
