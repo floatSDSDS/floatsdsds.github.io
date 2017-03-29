@@ -34,14 +34,16 @@ library(devtools) #载入devtools包
 install_github("A","B") #其中A为包名，B为作者名
 ```
 
-## 3. 网络问题的报错及外部方法解决→_→
+## 3. 网络问题的报错及外部方法解决→\_→
 - 其实这篇博文的出发点是因为我连续几次正常安装包失败报错如下： 先运行安装包的命令
 ```
 install.packages("rafalib")
 
 ```
+
 - 会返回如下错误
-``` R
+
+``` 
 Warning in install.packages :
   InternetOpenUrl failed: ''
 Warning in install.packages :
