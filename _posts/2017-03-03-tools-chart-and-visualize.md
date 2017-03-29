@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "今天的主题是安利————图表图标流程图"
+title: "今天的主题是安利——图表图标流程图"
 excerpt: "搬砖学术居家旅行必备良品，图表图标流程图无脑拿下，数据做出来要也要美美的画。"
 tags:
   - tools
@@ -9,14 +9,15 @@ tags:
 ---
 
 > Warning: 本文只提供关键词、概括和成吨的传送门，是安利不是教程ლ(╹◡╹ლ)
-> 如果你要问为什么全文没有一张预览图，大概是因为我懒吧 #待补图
+> 如果你要问为什么推荐可视化的帖子全文没有一张预览图，大概是因为我懒吧 #待补图
 
 - 其实啦要说代码画图我只会用R，用python和js等其他语言的小伙伴请左转搜索[* data visualization](https://www.google.co.jp/search?newwindow=1&rlz=1C1CHZL_zh-CN__738JP738&espv=2&q=*+data+visualization&oq=*+data+visualization&gs_l=serp.3..0i7i30k1l10.4666.5046.0.5437.2.2.0.0.0.0.239.447.2-2.2.0....0...1c.1.64.serp..0.2.445.AarteUU3uMQ)，\*可以替换成自己常用的语言╭( ･ㅂ･)و ̑̑。
 - 咦一搜怎么这里好像有个现成的很fancy的整理贴#[The 38 best tools for data visualization](http://www.creativebloq.com/design-tools/data-visualization-712402)，和我下面说的有重叠，以及我发现里面好多看起来都很有趣，有的看起来比我用过的那些还牛逼……一起来拔草见者有份啊。
 - 本文分两节，第一节推荐的工具不需要编程知识，第二节推荐的工具都有R的调用接口或者为R的包。
 
 ## 最喜欢鼠标点点的轻量化在线网页工具了对不对！
-- 如果你也一样喜欢轻量化在线工具╭( ･ㅂ･)و ̑̑,保持电脑的干净清爽， 在新工作开始前试着搜索 `* online` 吧，虽然熟悉一款好工具往往能用很久，但是总是有那么多新生代作品值得发掘，总有那么多闲的蛋疼的开发者们喜欢脑洞大开，让我们说生出Wow还能这样的惊喜和赞叹。
+- 如果你也一样喜欢轻量化在线工具╭( ･ㅂ･)و ̑̑,保持电脑的干净清爽， 在新工作开始前试着搜索 `* online` 吧，虽然熟悉一款好工具往往能用很久，但是总是有那么多新生代作品值得发掘，总有那么多闲的蛋疼的开发者们喜欢脑洞大开，让我们生出Wow还能这样的惊喜和赞叹。
+- 我说，不要瞧不起图形界面嘛！好产品不一定是易学易用的，但目标受众广的好产品一定要是易学易用的，易学易用的产品能实现才厉害好不好❤。
   - [chartblocks](http://www.chartblocks.com/en/)
     - 常见图表，柱状图堆叠图饼图等常用静态图，优点是极端容易操作，但免费web版功能较少，而且只能到处png格式。
   - [amcharts](https://www.amcharts.com/)
@@ -30,11 +31,11 @@ tags:
 ## 赞美R
 - ggplot2
   - 八卦：Hadeley Wickham的作品，男神级书呆，使用R的小伙伴即使即使可能还没听过他的名字，但大概每个人都得接触他开发的包。httr、dplyr、ggplot、reshape2、devtools都是他的作品。
-  - features：注意ggplor2处理的数据要整理成长数据格式，绘制各种静态图表。
-- plotly
+  - features：注意ggplot2处理的数据要整理成长数据格式，绘制各种静态图表。
+- [plotly](https://plot.ly/)
   - features：绘图！绘动态的图！可以让ggplot2绘制的图表动起来！本身也有独立的绘图功能，另外有多种语言的接口。
   - 接口：R、python、matlab、javascript
-- igraph
+- [igraph](http://igraph.org/redirect.html)
   - features：网络分析及可视化的包，可视化其实只是它的一部分功能，它还集成了大量图和网络的分析工具。
   - 接口：R、python、C
 - networkD3

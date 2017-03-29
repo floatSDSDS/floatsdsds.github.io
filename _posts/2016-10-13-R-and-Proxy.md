@@ -34,7 +34,7 @@ library(devtools) #载入devtools包
 install_github("A","B") #其中A为包名，B为作者名
 ```
 
-## 3. 网络问题的报错的外部方法解决→_→
+## 3. 网络问题的报错及外部方法解决→_→
 - 其实这篇博文的出发点是因为我连续几次正常安装包失败报错如下： 先运行安装包的命令
 ```
 install.packages("rafalib")
@@ -97,7 +97,7 @@ Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWi
 - 网上查找类似问题，有人回复说是网络问题，防火墙问题等。根据这个思路，我推测自己遇到的原因是之前用一个API频次
 不小心过高被封锁了，理由是换了VPN节点后可以正常安装包（sob）。
 
-## 为R的运行设置代理[1]
+## 4. 为R的运行设置代理[1]
 - 当然前提是有代理可以用，方法也很简单，编辑环境变量配置文件，加入代理设置：
 ```
 file.edit('~/.Renviron')
