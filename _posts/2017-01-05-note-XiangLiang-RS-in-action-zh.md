@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "《推荐系统实践》阅读笔记"
-excerpt: "部分毕设有用的段落和要点摘抄、备忘及自己的使用扩展思路。顺便测试了一下对公式的支持，果然目前文中公式都是废的"
+excerpt: "部分毕设有用的段落和要点摘抄、备忘及自己的使用扩展思路。"
 tags:
   - theory
   - Recommender Systems
@@ -10,7 +10,9 @@ tags:
 
 
 # 推荐系统实践
-- 项亮 2012
+
+{:toc}
+
 ## 第一章 好的推荐系统
 ### 1.1推荐系统概述
 - 推荐系统由信息过载的问题催生，解决信息过载问题代表性的解决方案是分类目录和搜索引擎（雅虎和谷歌）
@@ -107,9 +109,7 @@ behavior content| 行为的内容（如果是评论行为，那么就是评论�
 #### 2.2.1 用户活跃度和物品流行度分布
 - 很多关于互联网数据的研究罚下你，互联网上很多数据分布都满足Power Law分布，这个分布在互联网领域也称为长尾分布。
 
-```math
-f(x)=ax^k
-```
+$$f(x)=ax^k$$
 
 - 长尾分布很早就被统计学家注意到了，如1932年哈佛大学语言学家研究发现每个单词出现的频率和它在热门排行榜中排名常数次数幂成反比，**考虑观察就餐点和口味的分布**例：本书p39(56)，长尾分布在双对数曲线上应该呈直线。
 
@@ -131,7 +131,7 @@ f(x)=ax^k
 - UserCF步骤
     1. 找到和目标用户兴趣相似的用户集合。（如JAccard，余弦相似度）
     2. 找到这个集合中的用户喜欢的，且目标用户没有听说过的物品推荐给目标用户。
-    - 该代码对两两用户都利用余弦相似度计算相似度。这种方法的时间复杂度是O(|U|*|U|)，这在用户数很大时非常耗时。事实上，很多用户相互之间并没有对同样的物品产生过行为，即很多时候两用户之间交集为零。上面的算法将很多时间浪费在了计算这种用户之间的相似度上。如果换一个思路，我们可以首先计算出购买物品不为零的用户对(u,v)，再对这种情况单独处理。优化算法如下：p47(64)：
+    - 该代码对两两用户都利用余弦相似度计算相似度。这种方法的时间复杂度是$O(|U|\*|U|)$，这在用户数很大时非常耗时。事实上，很多用户相互之间并没有对同样的物品产生过行为，即很多时候两用户之间交集为零。上面的算法将很多时间浪费在了计算这种用户之间的相似度上。如果换一个思路，我们可以首先计算出购买物品不为零的用户对(u,v)，再对这种情况单独处理。优化算法如下：p47(64)：
         1. 可以首先建立物品到用户的倒排表，对于每个物品都保存对该物品产生过行为的用户的列表。
         2. 令稀疏矩阵C[u][v]为|N(u)∩N(v)|，那么，假设用户u和用户v同时属于倒排表中K个物品对应的用户列表，就有C[u][v]=K。
         3. 从而，可以扫描倒排表中每个物品对应的用户列表，将用户列表中的两两用户对应的C[u][v]加1，最终就可以得到所有用户之间不为0的C[u][v]；
@@ -257,15 +257,14 @@ f(x)=ax^k
 
 ### 3.1 利用用户内容信息
 - 用户注册信息分三种：
-  - 人口统计学信息（基于人口统计学的系统推荐）***利用人口统计学信息先对用户分类，利用物品标签对物品分类（categories）**，包括年龄，性别，工作，学历，居住地，国籍，民族等
+  - 人口统计学信息（基于人口统计学的系统推荐）**利用人口统计学信息先对用户分类，利用物品标签对物品分类（categories）**，包括年龄，性别，工作，学历，居住地，国籍，民族等
   - 用户兴趣描述
   - 从其他网站导入的用户站外行为数据，社交数据
 - 利用这些数据构建性别-电视剧相关表，年龄-电视剧相关表，职业-电视剧相关表等。
 - 获取喜欢物品i的用户中具有特征f的比例：
 
-```math
-p(f,i)=\frac{|N(i)\cap U(f)|}{|N(i)+\alpha|}
-```
+$$p(f,i)=\frac{|N(i)\cap U(f)|}{|N(i)+\alpha|}$$
+
 - 包含了人口统计学信息的数据集：
     - BookCrossing
     - Lastfm
@@ -317,9 +316,9 @@ p(f,i)=\frac{|N(i)\cap U(f)|}{|N(i)+\alpha|}
 - 时间上下文推荐算法
     1. 最近最热门
     2. 时间上下文相关的ItemCF（用户在相隔很短的时间内喜欢的物品具有更高的相似度，加重用户近期行为的权重）
-    ```math
-    sim(i,j)=\frac{\sum_{u\in N(i)\cap N(j)}f(|t_{ui}-t_{uj}|)}{\sqrt{|N(i)||N(j)|}}
-    ```
+
+$$    sim(i,j)=\frac{\sum_{u\in N(i)\cap N(j)}f(|t_{ui}-t_{uj}|)}{\sqrt{|N(i)||N(j)|}}
+$$
     其中f(tui-tuj)可使用不同的数学衰减函数
     3. 时间上下文相关的UserCF
     - 比如，16年的A与12年的B相似，这种感觉
@@ -347,7 +346,7 @@ p(f,i)=\frac{|N(i)\cap U(f)|}{|N(i)+\alpha|}
     - 活动本地化：一个用户往往在附近的地区活动。通过分析Foursqure的数据，研究人员发现45%的用户其活动范围半径不超过10英，而75%的用户活动半径不超过50英里。因此，在基于位置的推荐中我们需要考虑推荐地点和用户当前地点的距离，不能给用户推荐太远的地方。
 - 对有空间属性的数据，LARS的基本思想是将数据集根据用户的位置划分成很多子集（物品数据集呈树状结构），把用户分配到某一个叶子节点中 （可能每个叶子节点上的用户数量很少），这种情况下可能造成叶子节点上数据稀疏。解决办法：金字塔模型，从根节点出发，加权。
 - 研究时间上下文的著名文章：[13]
-- Evaluating Collaborative Filtering Over Time：论述各种不同推荐算法如何随时间演化
+- Evaluating Collaborative Filtering Over Time：论述各种不同推荐算法如何随时间演化。
 
 ## 第六章 利用社交网络数据
 - 与题目相关结合点不多，略
@@ -382,36 +381,29 @@ p(f,i)=\frac{|N(i)\cap U(f)|}{|N(i)+\alpha|}
 # reference
 [1]Chris Anderson "The Long Tail",2004
 
-[1.1]Chris Anderson "长尾理论",  2006
+[1.1]Chris Anderson "长尾理论", 2006
 
-[2]Gábor Takács、István Pilászy和 Bottyán Németb, “Major components of the gravity recommendation system”。
+[2]Major components of the gravity recommendation system
 
-[3]Guy Shani,Asela Gunawardana的“Evaluating Recommendation Systems”
+[3]Guy Shani,Asela Gunawardana, Evaluating Recommendation Systems
 
-[4]John S. Breese、 David Heckerman和 Carl Kadie的论文“ Empirical Analysis of Predictive Algorithms for
-Collaborative Filtering”（Morgan Kaufmann Publishers，1998
+[4]Empirical Analysis of Predictive Algorithms for Collaborative Filtering, Morgan Kaufmann Publishers，1998
 
-[5]Linden Greg、Smith Brent和 York Jeremy的“Amazon.com Recommendations: Item-to-Item Collaborative Filtering.”
-（IEEE Internet Computing， 2003）。
+[5]Linden Greg、Smith Brent和 York Jeremy的“Amazon.com Recommendations: Item-to-Item Collaborative Filtering.”（IEEE Internet Computing， 2003）。
 
-[6]John S. Breese、 David Heckerman和 Carl Kadie的“ Empirical Analysis of Predictive Algorithms for Collaborative
-Filtering”（Morgan Kaufmann Publishers ，1998）。
+[6]John S. Breese、 David Heckerman和 Carl Kadie的“ Empirical Analysis of Predictive Algorithms for Collaborative Filtering”（Morgan Kaufmann Publishers ，1998）。
 
-[7]George Karypis的论文“ Evaluation of Item-based Top-N Recommendation Algorithms”。
+[7]Evaluation of Item-based Top-N Recommendation Algorithms。
 
 [8]Song Li的“Fast Algorithms For Sparse Matrix Inverse Compuataions”（2009）
 
-[9]Adaptive Bootstrapping of Recommender Systems Using Decision Trees”，下载地址为 http://research.yahoo.
-com/pub/3502
+[9][Adaptive Bootstrapping of Recommender Systems Using Decision Trees](http://research.yahoo.com/pub/3502)
 
-[10]参见Neal Lathia、Stephen Hailes、Licia Capra和Xavier Amatriain的“Temporal Diversity in Recommender Systems”（SIGIR
-2010）。
+[10]Neal Lathia、Stephen Hailes、Licia Capra和Xavier Amatriain的“Temporal Diversity in Recommender Systems”（SIGIR 2010）。
 
-[11]参见Liang Xiang、Quan Yuan、Shiwan Zhao、Li Chen、Xiatian Zhang、Qing Yang和Jimeng Sun的“Temporal
-recommendation on graphs via long- and short-term preference fusion”（ACM 2010 Article，2010）
+[11]Temporal recommendation on graphs via long- and short-term preference fusion（ACM 2010 Article，2010）
 
-[12]参见“A Peek Into Netflix Queues ”，地址为http://www.nytimes.com/interactive/2010/01/10/nyregion/20100110-netflix-map.html
+[12][A Peek Into Netflix Queues](http://www.nytimes.com/interactive/2010/01/10/nyregion/20100110-netflix-map.html)
 
 
-[13]参见Jie Bao、Chi-Yin Chow、Mohamed F.Mokbel和Wei-Shinn Ku的“Efficient Evaluation of k-Range Nearest Neighbor
-Queries in Road Networks”（MDM，2012）。
+[13]Efficient Evaluation of k-Range Nearest Neighbor Queries in Road Networks”（MDM，2012）。
