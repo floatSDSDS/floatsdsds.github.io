@@ -390,17 +390,17 @@ $$
 
 [4]Empirical Analysis of Predictive Algorithms for Collaborative Filtering, Morgan Kaufmann Publishers，1998
 
-[5]Linden Greg、Smith Brent和 York Jeremy的“Amazon.com Recommendations: Item-to-Item Collaborative Filtering.”（IEEE Internet Computing， 2003）。
+[5]Amazon.com Recommendations: Item-to-Item Collaborative Filtering.（IEEE Internet Computing， 2003）。
 
-[6]John S. Breese、 David Heckerman和 Carl Kadie的“ Empirical Analysis of Predictive Algorithms for Collaborative Filtering”（Morgan Kaufmann Publishers ，1998）。
+[6]Empirical Analysis of Predictive Algorithms for Collaborative Filtering（Morgan Kaufmann Publishers ，1998）。
 
 [7]Evaluation of Item-based Top-N Recommendation Algorithms。
 
-[8]Song Li的“Fast Algorithms For Sparse Matrix Inverse Compuataions”（2009）
+[8]Fast Algorithms For Sparse Matrix Inverse Compuataions（2009）
 
 [9][Adaptive Bootstrapping of Recommender Systems Using Decision Trees](http://research.yahoo.com/pub/3502)
 
-[10]Neal Lathia、Stephen Hailes、Licia Capra和Xavier Amatriain的“Temporal Diversity in Recommender Systems”（SIGIR 2010）。
+[10]Temporal Diversity in Recommender Systems（SIGIR 2010）。
 
 [11]Temporal recommendation on graphs via long- and short-term preference fusion（ACM 2010 Article，2010）
 
