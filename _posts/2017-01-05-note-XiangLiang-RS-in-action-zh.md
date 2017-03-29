@@ -4,6 +4,7 @@ title: "《推荐系统实践》阅读笔记"
 excerpt: "部分毕设有用的段落和要点摘抄、备忘及自己的使用扩展思路。顺便测试了一下对公式的支持，果然目前文中公式都是废的"
 tags:
   - theory
+  - Recommender Systems
   - ZH
 ---
 
