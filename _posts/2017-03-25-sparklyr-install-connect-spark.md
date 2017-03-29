@@ -5,8 +5,8 @@ excerpt: "I followed offical tutorial at first,
 but it does not work will either with a unstable network environment or
 a fresh system."
 tags:
-  - Coding
-  - Bugs
+  - coding
+  - bugs
   - R
   - EN
 ---
