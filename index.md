@@ -19,6 +19,4 @@ Use to have 3 RC model planes, the biggest one have a wing span of 2.6 meters.
 
 Have a solid control theory framework stay in mind.
 
-appreciate to this silly but beautiful World.
-
-:)
+其实我已经收不住开始放飞自我了(゜▽＾*))
