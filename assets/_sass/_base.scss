@@ -103,32 +103,32 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2rem 0 0.5rem;
+  margin: 1.5rem 0 0.0.4rem;
   font-family: $base-font;
 }
 
 h1 {
-  font-size: 2em;
-}
-
-h2 {
   font-size: 1.5em;
 }
 
+h2 {
+  font-size: 0.1em;
+}
+
 h3 {
-  font-size: 1.3em;
+  font-size: 0.8em;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 0.6em;
 }
 
 h5 {
-  font-size: 0.9em;
+  font-size: 0.5em;
 }
 
 h6 {
-  font-size: 0.8em;
+  font-size: 0.4em;
 }
 
 // figures and images
@@ -230,7 +230,7 @@ dt {
 dd {
   padding: 0.5em 1em;
   margin-left: 0;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border: 1px solid darken($white, 7%);
   border-top: 0;
 }
