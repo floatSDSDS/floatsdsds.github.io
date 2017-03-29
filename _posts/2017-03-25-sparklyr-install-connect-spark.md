@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "sparklyr finally connected to Spark"
-excerpt: "This passage may help you with the following 2 problems: (i)Easily Install Spark with `sparklyr` under a unstable  network environment. (ii)Solve the problem "JAVA_HOME is not set" when connecting to Spark."
-a fresh system."
+excerpt: "I followed the offical tutorial at first, but it does not work will either with a unstable network environment or a fresh system."
 tags:
-  - coding
-  - bugs
+  - Coding
+  - Bugs
   - R
   - EN
 ---

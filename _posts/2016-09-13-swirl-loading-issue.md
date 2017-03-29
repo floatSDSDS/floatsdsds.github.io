@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "R-swirl无法正确载入问题"
-excerpt: "Error in library(swirl) : there is no package called 'swirl"
+excerpt: "Error in library(swirl) : there is no package called swirl"
 tags:
   - coding
   - bugs
