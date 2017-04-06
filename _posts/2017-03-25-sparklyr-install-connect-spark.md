@@ -3,8 +3,8 @@ layout: post
 title: "sparklyr finally connected to Spark"
 excerpt: "I followed the offical tutorial at first, but it does not work will either with a unstable network environment or a fresh system."
 tags:
-  - Coding
-  - Bugs
+  - coding
+  - bugs
   - R
   - EN
 ---

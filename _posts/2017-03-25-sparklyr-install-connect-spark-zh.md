@@ -3,8 +3,8 @@ layout: post
 title: "用sparklyr安装并连接Spark"
 excerpt: "嘛，一开始是跟官方教程走的，然而很明显官方教程中并未包含环境配置，`spark_install`命令也没有对断点传输进行优化"
 tags:
-  - Coding
-  - Bugs
+  - coding
+  - bugs
   - R
   - ZH
 ---
