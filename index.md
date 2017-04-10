@@ -11,9 +11,9 @@ I noticed Chinese R community is still young and lack of tutorials or materials.
 
 Beside R, I'm a light weight free tool seeker and dislike using pirated software, so if you need help on looking for a alternative for some software, feel free to email me anytime.
 
-This word cloud may be called <what is me-Ver. floatsd>, if you want to know more about me please check my [English](https://floatsdsds.github.io/floatsd-CV-EN/) and [Chinese](https://floatsdsds.github.io/floatsd-CV-EN/) CV.
+This word cloud may be called 'what is me-Ver'. floatsd, if you want to know more about me please check my [English](https://floatsdsds.github.io/floatsd-CV-EN/) and [Chinese](https://floatsdsds.github.io/floatsd-CV-EN/) CV.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://floatsdsds.github.io/floatsd-CV-EN).
+If you have a question, find a bug, or just want to say hi, please open an [English](https://floatsdsds.github.io/floatsd-CV-EN).
 
 floatsd
 
