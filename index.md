@@ -13,7 +13,11 @@ Beside R, I'm a light weight free tool seeker and dislike using pirated software
 
 Note that every work here is either original or translation.
 
-The following word cloud may be called <what is me-Ver. floatsd>, if you want to know more about me please check my CV [English Version](https://floatsdsds.github.io/floatsd-CV-EN/) and [Chinese Version](https://floatsdsds.github.io/floatsd-CV-EN/).
+{% raw %}<img src="{{ https://floatsdsds.github.io/floatsd-CV-EN/ }}/images/WC6.png" alt="">{% endraw %}
+
+This word cloud may be called <what is me-Ver. floatsd>, if you want to know more about me please check my CV [English Version](https://floatsdsds.github.io/floatsd-CV-EN/) and [Chinese Version](https://floatsdsds.github.io/floatsd-CV-EN/).
+
+
 
 -----
 
