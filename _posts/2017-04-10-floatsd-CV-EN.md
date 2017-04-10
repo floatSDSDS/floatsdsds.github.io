@@ -22,3 +22,5 @@ Have had a ferry trip in DJI summer camp and met a lovely boy, we auto-piloted a
 Use to have 3 RC model planes, the biggest one have a wing span of 2.6 meters.
 
 Have a solid control theory framework stay in mind.
+
+{% raw %}<img src="{{ https://floatsdsds.github.io/floatsd-CV-EN/ }}/images/WC6.jpg" alt="">{% endraw %}
