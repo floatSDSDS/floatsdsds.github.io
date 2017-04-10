@@ -15,8 +15,8 @@ This word cloud may be called <what is me-Ver. floatsd>, if you want to know mor
 
 -----
 
-floatsd{: style="text-align: center;"}
+floatsd
 
-2017/04/10{: style="text-align: center;"}
+2017/04/10
 
-Copyright © 2017. All rights reserved{: style="text-align: center;"}
+Copyright © 2017. All rights reserved
