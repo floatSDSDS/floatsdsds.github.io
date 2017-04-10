@@ -15,7 +15,7 @@ Note that every work here is either original or translation.
 
 The following word cloud may be called <what is me-Ver. floatsd>, if you want to know more about me please check my CV [English Version](www.google.com) and [Chinese Version](www.google.com).
 
-![image-center](/images/WC6.jpg){: .align-center}
+{% raw %}![alt]({{ https://floatsdsds.github.io/floatsd-CV-EN/ }}/images/WC6.jpg){% endraw %}
 
 -----
 
