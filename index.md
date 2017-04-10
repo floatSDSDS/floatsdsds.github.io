@@ -13,7 +13,7 @@ Beside R, I'm a light weight free tool seeker and dislike using pirated software
 
 This word cloud may be called <what is me-Ver. floatsd>, if you want to know more about me please check my [English](https://floatsdsds.github.io/floatsd-CV-EN/) and [Chinese](https://floatsdsds.github.io/floatsd-CV-EN/) CV,  [posts sorted by time](https://floatsdsds.github.io/tags).
 
------
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
 
 floatsd
 
