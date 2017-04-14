@@ -32,26 +32,26 @@ At first, I followed the official tutorial as every one else
 would prefer. It seems pretty simple, the only thing I need to
 do is running the following code.
 
-```css
+```python
 install.packages("sparklyr")
 library(sparklyr)
 spark_install(version = "1.6.2")
 ```
 Then here comes out the first problem: I can't successfully download the Spark
-*.tar when ever the network breaks for more than a threshold time, the downloading process
+\*.tar when ever the network breaks for more than a threshold time, the downloading process
 would break off.
 
 To solve the problem I found another command when typing `?spark_install`,
 install spark from a tar file.
 
-```ruby
+```java
 spark_install_tar(tarfile)
 ```
 So I used a download manager(there are lots of good Linux download
 managers like uGet, SteadyFlow, kGet, XDM, etc.). After installing, we can
 check for the installing path and version.
 
-```html
+```c++
 spark_installed_versions()
 spark_install_dir()
 ```
@@ -60,12 +60,12 @@ spark_install_dir()
 Speak at the first: I had set JAVA_HOME variables both in `/etc/profile`
 and `/etc/environment`, along with sourcing the configuration.
 
-```
+```go
 > sc <- spark_connect(master = "local")
 ```
 I met the second problem when connecting to Spark.
 
-```
+```swift
 Error in force(code) :
   Failed while connecting to sparklyr to port (8880) for sessionid (6026): Gateway in port (8880) did not respond.
 Path: /home/floatsd/.cache/spark/spark-1.6.2-bin-hadoop2.6/bin/spark-submit
