@@ -26,6 +26,14 @@
   }
 }
 
+.block-left {
+  width: 30%;
+}
+
+.block-right {
+  width: 70%;
+}
+
 .inactive {
   pointer-events: none;
   pointer: default;
@@ -297,7 +305,7 @@ canvas {
 .main-info,
 .about-info {
   text-align: center;
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   h1,
@@ -462,7 +470,7 @@ canvas {
 }
 
 .section-title {
-  font-size: 100px;
+  font-size: 50px;
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -593,7 +601,7 @@ canvas {
     position: relative;
     left: auto;
     bottom: auto;
-    font-size: 80px;
+    font-size: 40px;
   }
   .tags > li {
     background: none;
@@ -704,7 +712,7 @@ canvas {
 // Media queries
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
-    font-size: 45px;
+    font-size: 22px;
   }
 }
 
@@ -770,11 +778,11 @@ canvas {
       display: none;
     }
     .section-title {
-      font-size: 40px;
+      font-size: 20px;
     }
   }
   .section-title {
-    font-size: 80px;
+    font-size: 40px;
   }
   .projects-menu li {
     width: 100% !important;
