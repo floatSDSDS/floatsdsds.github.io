@@ -32,7 +32,7 @@ At first, I followed the official tutorial as every one else
 would prefer. It seems pretty simple, the only thing I need to
 do is running the following code.
 
-```
+```css
 install.packages("sparklyr")
 library(sparklyr)
 spark_install(version = "1.6.2")
@@ -44,14 +44,14 @@ would break off.
 To solve the problem I found another command when typing `?spark_install`,
 install spark from a tar file.
 
-```
+```ruby
 spark_install_tar(tarfile)
 ```
 So I used a download manager(there are lots of good Linux download
 managers like uGet, SteadyFlow, kGet, XDM, etc.). After installing, we can
 check for the installing path and version.
 
-```
+```html
 spark_installed_versions()
 spark_install_dir()
 ```
