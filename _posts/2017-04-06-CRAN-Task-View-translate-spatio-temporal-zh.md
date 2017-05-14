@@ -9,12 +9,12 @@ tags:
 ---
 
 
-> 顾名思义，时空数据即是指同时带有时间属性和地理属性的数据。本文主要介绍了与时空数据处理有关的包和他们的简介。主体为CRAN Task View中SpatioTemporal的翻译，意译指数比较高(　ﾟ∀ﾟ) ﾉ好处是也比较像人话，如有勘误缺漏要跟我说哦。
+> 顾名思义，时空数据即是指同时具有时间属性和地理属性的数据。本文主要介绍了R中与时空数据处理有关的包和他们的简介。主体为CRAN Task View中SpatioTemporal的翻译，以后有空会改成更好看的形式，比如“对比矩阵”和可视化表示，帮助理解。
 > [CRAN Task View - SpatioTemporal](https://cran.r-project.org/web/views/SpatioTemporal.html)
 > 文中用花括号`{}`表示包名
 > 文中有一些奇妙的术语或小词，大概意思知道但不敢乱翻，就保留了英文。
 
-- 一键安装上文中出现的所有包（）：
+- 一键安装文中出现的所有包（）：
 ```C
 install.packages("ctv")
 library("ctv")

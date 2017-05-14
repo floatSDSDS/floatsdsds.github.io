@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "understanding of recommenderlab docs"
-excerpt: "Error in library(swirl) : there is no package called swirl"
+title: "R的那些包（1）——recommenderlab"
+excerpt: "理解R中的推荐系统框架（包）recommenderlab"
 tags:
-  - coding
-  - bugs
+  - r-package
   - R
-  - EN
+  - ZH
 ---
 
 basic classes ：
