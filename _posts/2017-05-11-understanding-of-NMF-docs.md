@@ -97,12 +97,10 @@ nmf(X,rank,method,seed...)
 
 ### 2.1 使用内置模型
 - 数据载入
-```
-# 载入数据
-data(esGolub)
 
-# 取其中前两百个基因作为测试样本（走个流程节省时间）
-esGolub<-esGolub[1:200,]
+```
+data(esGolub) # 载入数据
+esGolub<-esGolub[1:200,]  # 取其中前两百个基因作为测试样本（走个流程节省时间）
 ```
 
 - 获取NMF结果数据及参数，例中使用ns方法和随机初始化，之后还可以根据不同模型设置参数，如例中theta=0.7。
@@ -110,21 +108,14 @@ esGolub<-esGolub[1:200,]
 
 ```
 > res<-nmf(esGolub,3,method="ns",seed="random",theta=0.7, nrun=5)
-# 查看res
-> res
+> res # 查看res
+> algorithm(res) # 查看res模型的算法
+> fit(res)  # 可以用函数fit查看模型的参数
+> View(fitted(res))
 
-# 查看res模型的算法
-> algorithm(res)
 
-# 可以用函数fit查看模型的参数
-> fit(res)
-
-# 使用fitted函数可以返回估计目标矩阵，数据类型为matrix，需要注意的是这里返回的不是稀疏矩阵，所以会很占用内存。
-View(fitted(res))
-
-# 得到分解矩阵W和H
-W <- basis(res)
-H <- coef(res)
+> W <- basis(res)
+> H <- coef(res) # 得到分解矩阵W和H
 
 # 使用summary可以查看res的参数，如残差、计算时间等
 # 同时还可以指定target和class获取更多信息。
