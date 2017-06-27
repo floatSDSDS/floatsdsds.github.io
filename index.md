@@ -11,8 +11,7 @@ I hate pirated software, instead, I seek for light weight free tools. If you are
 
 I am responsible for everything I wrote and I love everything I create.
 
-###News
-I have just stepped into the research area for little more than a year as an undergraduate, still feel shy to introduce myself as an entry-level data scientist, but I have to say it was a meaningful and fulfill time that give me faith to take research as an career. If you want to know more about me please check on my [resume](https://floatsdsds.github.io/floatsd-CV-EN/). Actually, since I'm a recent graduate with an uncertain future, I was badly praying for a glimpse.
+**News** I have just stepped into the research area for little more than a year as an undergraduate, still feel shy to introduce myself as an entry-level data scientist, but I have to say it was a meaningful and fulfill time that give me faith to take research as an career. If you want to know more about me please check on my [resume](https://floatsdsds.github.io/floatsd-CV-EN/). Actually, since I'm a recent graduate with an uncertain future, I was badly praying for a glimpse.
 
 floatsd
 
