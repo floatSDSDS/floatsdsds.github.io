@@ -3,19 +3,19 @@ layout: home
 ---
 # Home
 
-Welcome guys! This is floatsd, a girl design to become a punster in data science field.
+Welcome guys.
 
-In order to give vistors come with mobile a little convenience, let's start with [posts sorted by time](https://floatsdsds.github.io/tags) and [posts sorted by tags](https://floatsdsds.github.io/tags).
+To give vistors behind a 5-inch screen a little convenience, let's start with [posts sorted by time](https://floatsdsds.github.io/posts) and [posts sorted by tags](https://floatsdsds.github.io/tags).
 
-I noticed Chinese R community is still young and lack of tutorials or materials. Especially, I'm that kind of person can never appreciate tech blog without any code block highlight or sample plot, the graphic explanation. In this blog I would record all those bugs I met, all those tricks I found and all those experiences within novel packages, I'll try my best to make it easy to get.
+I hate pirated software, instead, I seek for light weight free tools. If you are looking for an alternative, feel free to info me anytime.
 
-Beside R, I'm a light weight free tool seeker and dislike using pirated software, so if you need help on looking for a alternative for some software, feel free to email me anytime.
+I am responsible for everything I wrote and I love everything I create.
 
-This word cloud may be called 'what is me-Ver'. floatsd, if you want to know more about me please check my [English](https://floatsdsds.github.io/floatsd-CV-EN/) or [Chinese](https://floatsdsds.github.io/floatsd-CV-EN/) CV.
-
+###News
+I have just stepped into the research area for little more than a year as an undergraduate, still feel shy to introduce myself as an entry-level data scientist, but I have to say it was a meaningful and fulfill time that give me faith to take research as an career. If you want to know more about me please check on my [resume](https://floatsdsds.github.io/floatsd-CV-EN/). Actually, since I'm a recent graduate with an uncertain future, I was badly praying for a glimpse.
 
 floatsd
 
-2017/04/10
+2017/06/28
 
 Copyright © 2017. All rights reserved
