@@ -39,17 +39,11 @@ install.views("SpatioTemporal"，repos = <choose-a-mirror>)
     - **点的特征(Point patterns)**：`{stpp}`提供了类`stpp`来表示一个时空点的特征。`{stppResid}`提供了`stwin`类，类中定义了一个长方形时空窗口，和包括了点的特征的`stpp`类。`{spatstat}`实现了`ppx`类来处理时空坐标，这些特征点类都没有表示自己支持明确的时间参考系统。\*这里一段整个都很虚
     - **轨迹数据(Trajectory)**：`{adehabitatLT}`中提供了一种轨迹类`ltraj`和部分分析方法，`{move}`和`{trip}`则分别实现了`{sp}`类轨迹拓展类。
 
-## 不同格式对应的分析方法（包）
-- **地理学统计数据**
-- **点的特征**
-- **网格数据**
-- **移动对象，轨迹数据**
-  - `{adehabitatLT}`提供了一系列分析动物行为轨迹的工具，包括随机游走仿真和住址估计。
-  - `{trip}`提供了一系列访问、操作追踪动物轨迹的工具，可以根据动物轨迹起始时间、速度进行筛选。
-
 ## 可视化
 - `{rasterVis}`提供了一系列`z`数据格式（`RasterStack`和`RasterBrick`）的可视化功能，它的[官方页面](https://oscarperpinan.github.io/rastervis/)提供了很多实例。
 - `{plotKML}`提供了一系列将时空数据转换为KML文件形式的方法，利用kML文件可以使用如Google Earth等扩展可视化工具来展示数据。
 - `{googleVis}`是谷歌图表的R接口，其中提供了一系列`spacetime`类的绘制实例。
 - `{stpp}`和`{splancs}`提供了动画和3D交互图表的绘制方法（使用rgl）展示时空数据点的特征。
 - `{mvtsplot}`提供了杜仲时间序列绘图，也包含时空数据的例子。
+
+**To Be Continue**
