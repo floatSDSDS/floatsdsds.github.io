@@ -38,12 +38,13 @@ install_github("A","B") #其中A为包名，B为作者名
 - 其实这篇博文的出发点是因为我连续几次正常安装包失败报错如下： 先运行安装包的命令
 ```
 install.packages("rafalib")
-
 ```
+
 
 - 会返回如下错误
 
-``` 
+
+```
 Warning in install.packages :
   InternetOpenUrl failed: ''
 Warning in install.packages :
@@ -96,19 +97,26 @@ Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWi
   cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/src/contrib/PACKAGES'
 ```
 
+
 - 网上查找类似问题，有人回复说是网络问题，防火墙问题等。根据这个思路，我推测自己遇到的原因是之前用一个API频次
 不小心过高被封锁了，理由是换了VPN节点后可以正常安装包（sob）。
 
 ## 4. 为R的运行设置代理[1]
 - 当然前提是有代理可以用，方法也很简单，编辑环境变量配置文件，加入代理设置：
+
+
 ```
 file.edit('~/.Renviron')
 ```
+
 - 在打开的文件中加入http代理设置如下：
+
+
 ```
 http_proxy=http://proxy.dom.com/  #代理服务器地址
 http_proxy_user=user:passwd #用户名和密码，没有用户名和密码时可省略
 ```
+
 - 同理还可以设置如ftp_proxy类型代理，具体参见[官方文档](https://curl.haxx.se/libcurl/c/libcurl-tutorial.html)
 
 -----
