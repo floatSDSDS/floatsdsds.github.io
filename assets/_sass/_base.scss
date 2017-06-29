@@ -112,7 +112,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.1em;
+  font-size: 1em;
 }
 
 h3 {
@@ -124,11 +124,11 @@ h4 {
 }
 
 h5 {
-  font-size: 0.5em;
+  font-size: 0.3em;
 }
 
 h6 {
-  font-size: 0.4em;
+  font-size: 0.2em;
 }
 
 // figures and images
@@ -216,7 +216,7 @@ blockquote {
 
 cite {
   font-style: italic;
-  font-size: 0.4em;
+  font-size: 0.3em;
 }
 
 // definition lists
@@ -294,7 +294,7 @@ pre {
   figcaption > code,
   td > code {
     padding: 0.1rem 0.2rem;
-    font-size: 0.9em;
+    font-size: 0.3em;
     border-radius: 2px;
     background-color: darken($white, 5%);
     font-family: $base-font;
