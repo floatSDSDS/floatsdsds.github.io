@@ -9,7 +9,7 @@ To give the vistors behind a 5-inch screen a little convenience, let's start wit
 
 I hate pirated software, instead, I seek for light weight free tools. If you are looking for an alternative, feel free to info me anytime.
 
-I'm doing some translate work about R, from Englisht to Chinese, as I was searching tools in the pages. I would be gald if someone would point out my errors or even join in the translation.
+I'm doing some translate work about R, from Englisht to Chinese, as I was searching in the pages. I would be gald if someone would point out my errors or even join in the translation.
 
 **I am responsible for everything I wrote and I love everything I create.**
 
