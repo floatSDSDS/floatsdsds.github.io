@@ -8,6 +8,7 @@ tags:
 ---
 
 ## BACKGROUND
+[A formal Resume](https://github.com/floatSDSDS/floatsdsds.github.io/raw/master/_data/Lu%20Fan%20DM.pdf)
 
 ### EDUCATION
 
@@ -15,9 +16,15 @@ tags:
 
 ### SKILLS
 
-## EXPERIENCE
+- A skill wordcloud
 
 ![image-center](https://raw.githubusercontent.com/floatSDSDS/floatsdsds.github.io/master/images/WC6.png){: .align-center}
+
+## EXPERIENCE
+
+- To Summary my past year :)
+
+![image-center](https://raw.githubusercontent.com/floatSDSDS/floatsdsds.github.io/master/images/annualSummary1617.png){: .align-center}
 
 ## MY FOUR YEAR CAMPUS
 
