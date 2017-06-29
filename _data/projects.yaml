@@ -1,29 +1,24 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
+- title: GeoC live demo
+  url: https://floatsd.shinyapps.io/GeoCUI/
   image: http://taylantatli.me/Halve/images/halve-home-image.png
-  completed: false
-
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
   completed: true
 
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: true
-
-- title: Daisy Pelican Theme
+- title: DJI Robomaster Summercamp Championship
   url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
+  image: https://gogojjh.github.io/project/images/post-rm-playing-m100.jpg
   completed: false
 
-- title: Start Page
+- title: Car Video Tracker
   url: http://taylantatli.me/StartPage/
   image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
+  completed: false
+
+- title: Binary Bit Trace
+  url: https://www.zybuluo.com/mdeditor#258400-full-reader
+  image: https://floatsd.files.wordpress.com/2016/05/e5b9bbe781afe789872.jpg
+  completed: true
+
+- title: Linear Controller Evaluater
+  url: http://taylantatli.me/Moon
+  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
   completed: false
