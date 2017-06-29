@@ -4,14 +4,14 @@
   completed: true
 
 - title: DJI Robomaster Summercamp Championship
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
+  url:
   image: https://gogojjh.github.io/project/images/post-rm-playing-m100.jpg
-  completed: false
+  completed: true
 
 - title: Car Video Tracker
-  url: http://taylantatli.me/StartPage/
+  url: 
   image: https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/images/project_carTracker.png?raw=true
-  completed: false
+  completed: true
 
 - title: Binary Bit Trace
   url: https://www.zybuluo.com/mdeditor#258400-full-reader
@@ -19,6 +19,6 @@
   completed: true
 
 - title: Linear Controller Evaluater
-  url: http://taylantatli.me/Moon
-  image: https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/images/Project_Linear%20Controller%20Evaluator.png
-  completed: false
+  url:
+  image: https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/images/Project_Linear%20Controller%20Evaluator.png?raw=true
+  completed: true
