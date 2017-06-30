@@ -514,6 +514,7 @@ canvas {
     .post-title {
       display: inline-block;
       max-width: 75%;
+      font-size: 28px;
       &:hover span {
         border-bottom: 1px dotted #ff9156;
       }
@@ -546,10 +547,14 @@ canvas {
     margin-bottom: 50px;
   }
   h2 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 32px;
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 1.1em;
+    line-height: 24px;
   }
   h1,
   h2,
@@ -561,8 +566,8 @@ canvas {
     color: rgba($overlay-color, 0.7);
   }
   p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 2;
     color: #6c6c6c;
     margin-bottom: 1.3em;
   }
@@ -579,9 +584,10 @@ canvas {
   ul,
   ol {
     padding-left: 30px;
+    font-size: 14px;
     > li {
       position: relative;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
       &:first-child {
         margin-top: 20px;
       }
