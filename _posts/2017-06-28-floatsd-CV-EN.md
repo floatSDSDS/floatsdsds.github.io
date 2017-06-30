@@ -14,6 +14,7 @@ tags:
 
 ### INTEREST
 
+$$ test_{fomula} $$
 ### SKILLS
 
 - A skill wordcloud
