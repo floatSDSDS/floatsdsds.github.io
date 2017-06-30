@@ -488,6 +488,7 @@ canvas {
 
 .posts-list {
   margin: 50px 0;
+  font-size: 14px;
   > li {
     margin-bottom: 23px;
     padding-bottom: 20px;
@@ -514,7 +515,7 @@ canvas {
     .post-title {
       display: inline-block;
       max-width: 75%;
-      font-size: 28px;
+      font-size: 26px;
       &:hover span {
         border-bottom: 1px dotted #ff9156;
       }
