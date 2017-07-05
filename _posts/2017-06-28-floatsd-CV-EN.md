@@ -35,3 +35,7 @@ I started to focus on the courses from the second year. It was the practical pro
 It was the course Artificial Intelligence taught by Prof. Xuan led me to the world of data science. Since then I have embraced the true love.
 
 Finally, I calculated and visualized my four year GPA (unofficially) to highlight the upward trend as follow.
+
+<figure>
+	<a href="https://raw.githubusercontent.com/floatSDSDS/floatsdsds.github.io/47b77f8c9b7441d6ed2b120b0574ad058a01c1a5/images/GPATrend.png"><img src="https://raw.githubusercontent.com/floatSDSDS/floatsdsds.github.io/47b77f8c9b7441d6ed2b120b0574ad058a01c1a5/images/GPATrend.png"></a>
+</figure>
