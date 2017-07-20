@@ -588,9 +588,10 @@ canvas {
     font-size: 14px;
     > li {
       position: relative;
-      margin-bottom: 24px;
+      margin-bottom: 18px;
+      line-height: 22px;
       &:first-child {
-        margin-top: 20px;
+        margin-top: 18px;
       }
     }
   }
