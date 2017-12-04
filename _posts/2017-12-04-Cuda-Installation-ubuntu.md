@@ -131,7 +131,7 @@ floatsd@floatsd:~/nvidia$ sudo apt-get install cuda
 </figure>
 - 关机，进入bios关闭UEFI
 
-## 3. 配置环境及
+## 3. 配置环境及安装检查
  安装完毕后，推荐手动配置环境1. 添加路径变量（如使用distribution-independent方法安装参见[1]7.1节）
 ```
 floatsd@floatsd:~/nvidia$ export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
