@@ -21,8 +21,7 @@ tags:
   - 合适的gcc编译版本及工具链
   - NVIDIA CUDA Toolkit
 
-## 2. 依赖项检查及配置
-
+## 2. 依赖项检查，安装CUDA
 ### 2.0. 卸载冲突项
 - 本机是第一次安装CUDA，在此之前940MX也没有安装驱动，所以不存在冲突的可能性。在安装之前需要卸载会造成冲突的软件，详见[1]2.7节
 
@@ -123,7 +122,61 @@ floatsd@floatsd:~/nvidia$ sudo apt-get update
 floatsd@floatsd:~/nvidia$ sudo apt-get install cuda
 //此处是一段漫长的下载安装
 ```
-
+- 安装完毕显示需要关闭UEFI
 <figure class="one">
     <a href="/images/CudaInterface1.png"><img src="/images/CudaInterface1.png"></a>
 </figure>
+- 关机，进入bios关闭UEFI
+
+## 3. 配置环境及
+ 安装完毕后，推荐手动配置环境1. 添加路径变量（如使用distribution-independent方法安装参见[1]7.1节）
+```
+floatsd@floatsd:~/nvidia$ export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+```
+
+### 3.1 检查安装状态
+- 检查驱动，gcc及内核等依赖
+```
+floatsd@floatsd:~/nvidia$ cat /proc/driver/nvidia/version
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  384.98  Thu Oct 26 15:16:01 PDT 2017
+GCC version:  gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5)
+```
+- 检查CUDA是否安装成功
+```
+floatsd@floatsd:~/nvidia$ nvcc -V
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+```
+
+
+
+
+
+## 4. 检查安装情况
+- 检查驱动版本和显卡配置
+```
+floatsd@floatsd:~/nvidia$ nvidia-smi
+Mon Dec  4 16:45:53 2017       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.98                 Driver Version: 384.98                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce 940MX       Off  | 00000000:02:00.0 Off |                  N/A |
+| N/A   38C    P0    N/A /  N/A |    486MiB /  2002MiB |      6%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1177      G   /usr/lib/xorg/Xorg                           314MiB |
+|    0      1843      G   compiz                                        77MiB |
+|    0      2356      G   ...passed-by-fd --v8-snapshot-passed-by-fd    43MiB |
+|    0      2607      G   /proc/self/exe                                49MiB |
++-----------------------------------------------------------------------------+
+
+```
