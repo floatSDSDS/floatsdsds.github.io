@@ -81,3 +81,13 @@ linux-headers-4.10.0-40-generic is already the newest version (4.10.0-40.44~16.0
 linux-headers-4.10.0-40-generic set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 70 not upgraded.
 ```
+
+## 2.5. 选择安装方式
+- CUDA有两种安装方式
+  - distribution-independent(.runfile)：优势在于可以支持更广的Linux发型系统，但不会随着包管理系统更新
+  - distribution-specific(.RPM, .Deb)：会随着包管理系统更新，所以如果系统版本支持distribution-specific，安装这个版本是比较方便的
+
+## 2.6. 下载NVIDIA CUDA Toolkit
+- [下载地址](http://developer.nvidia.com/cuda-downloads.)
+- 选择对应版本
+![image-center](/image/cudaToolkitDownload.png){: .align-center}
