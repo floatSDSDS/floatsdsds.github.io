@@ -135,13 +135,16 @@ floatsd@floatsd:~/nvidia$ export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 ```
 
 ### 3.1 检查安装状态
-- 检查驱动，gcc及内核等依赖
+- 检查gcc及内核等依赖版本
+
 ```
 floatsd@floatsd:~/nvidia$ cat /proc/driver/nvidia/version
 NVRM version: NVIDIA UNIX x86_64 Kernel Module  384.98  Thu Oct 26 15:16:01 PDT 2017
 GCC version:  gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5)
 ```
+
 - 检查CUDA是否安装成功
+
 ```
 floatsd@floatsd:~/nvidia$ nvcc -V
 nvcc: NVIDIA (R) Cuda compiler driver
@@ -150,12 +153,7 @@ Built on Fri_Sep__1_21:08:03_CDT_2017
 Cuda compilation tools, release 9.0, V9.0.176
 ```
 
-
-
-
-
-## 4. 检查安装情况
-- 检查驱动版本和显卡配置
+- 检查驱动版本显卡配置
 ```
 floatsd@floatsd:~/nvidia$ nvidia-smi
 Mon Dec  4 16:45:53 2017       
