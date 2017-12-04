@@ -129,7 +129,7 @@ floatsd@floatsd:~/nvidia$ sudo apt-get install cuda
 <figure class="one">
     <a href="/images/CudaInterface1.png"><img src="/images/CudaInterface1.png"></a>
 </figure>
-- 关机，进入bios关闭UEFI
+- 关机，进入bios关闭UEFI scure boot
 
 ## 3. 配置环境及安装检查
  安装完毕后，推荐手动配置环境1. 添加路径变量（如使用distribution-independent方法安装参见[1]7.1节）
