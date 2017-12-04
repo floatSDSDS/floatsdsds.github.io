@@ -89,5 +89,7 @@ linux-headers-4.10.0-40-generic set to manually installed.
 
 ## 2.6. 下载NVIDIA CUDA Toolkit
 - [下载地址](http://developer.nvidia.com/cuda-downloads.)
-- 选择对应版本
-![image-center](/images/cudaToolkitDownload.png){: .align-center}
+- 选择对应版本如图，该toolkit包含了安装所需的头文件，源代码和其他依赖资源
+<figure class="one">
+    <a href="/images/cudaToolkitDownload.png"><img src="/images/cudaToolkitDownload.png"></a>
+</figure>
