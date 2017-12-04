@@ -157,6 +157,7 @@ Cuda compilation tools, release 9.0, V9.0.176
 ```
 
 - 检查驱动版本显卡配置
+
 ```
 floatsd@floatsd:~/nvidia$ nvidia-smi
 Mon Dec  4 16:45:53 2017       
