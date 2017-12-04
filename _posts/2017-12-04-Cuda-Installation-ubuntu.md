@@ -98,6 +98,7 @@ linux-headers-4.10.0-40-generic set to manually installed.
 </figure>
 
 - deb安装包下载好后，按照下载地址中指示代码，进入安装包所在路径进行安装
+
 ```
 loatsd@floatsd:~$ cd nvidia
 floatsd@floatsd:~/nvidia$ sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -122,7 +123,9 @@ floatsd@floatsd:~/nvidia$ sudo apt-get update
 floatsd@floatsd:~/nvidia$ sudo apt-get install cuda
 //此处是一段漫长的下载安装
 ```
+
 - 安装完毕显示需要关闭UEFI
+
 <figure class="one">
     <a href="/images/CudaInterface1.png"><img src="/images/CudaInterface1.png"></a>
 </figure>
