@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cuda安装ubuntu16.04"
+title: "cuda安装+ubuntu16.04"
 excerpt: "按照官方文档安装NVIDIA CUDA及过程记录"
 tags:
   - translate

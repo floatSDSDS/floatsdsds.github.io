@@ -1,0 +1,113 @@
+---
+layout: post
+title: "How they describe things"
+excerpt: "Language notes while reading"
+tags:
+  - Note
+  - EN
+---
+
+## Sentences
+- New language constructs usually propagate along an S-shape curve.
+- We show that the system **undergoes a disorder/order transition**, going through a sharp symmetry breaking process to reach a shared set of conventions.
+- the degree to which/ an agent’s vocabulary/ is similar to that of others/ is considered to determine its reproductive fitness.
+- natural selection drives the population towards convergence.
+- There can be a flux in the population.
+- Each player is characterized by his **inventory**
+- It is evident that single runs originate quite irregular curves.
+- The asymptotic state is one where a word invented during the time evolution took over with respect to the other competing words and imposed itself as the leading word.
+- The proof is straightforward.
+- In order to better see this phenomenon and then understand shy it is the case.
+- Both curves exhibit a power law behaviour with an exponent 3/2.
+- each agent is characterized by its inventory
+- language arises and develops presumably
+- This question engages fields as diverse as linguistics, sociology, and cognitive science.
+- How do shared conventions emerge in complex decentralized social systems?
+
+## Phrases
+- a rather sudden transition
+- a self-organizing communication systems
+- a microscopic model
+- a macro phenomenon
+- autonomous agents
+- performing language games
+- non-trivial
+- scale-invariant
+- the distribution of competing synonyms
+- shared conventions
+- scale up to
+- artificial semiotic
+- hard to come by
+- emergence of
+- a global conventions
+- sth. overtakes all others
+- without human intervention
+- unforeseeable tasks
+- scaling laws
+- how far the technology will carry
+- linguistic coherence
+- how conventions may develop
+- any other kind of entity
+- retrieves a word from its inventory
+- transmits the selected word to the hearer
+- without external intervention
+- give rise to
+- realistic situation
+- is practically negligible
+- without loss of generality
+- may refer to
+- property of interest
+- these curves（画图中的Nw，Nd曲线）
+- Total number of words in the system Nw(t)versus t
+- in the inset(图中图)
+- It is evident that
+- (the model is) be applicable to
+- an asymptotic state
+- (where) global coherence emerges
+- It is remarkable that
+- the single realization
+- be consistent with
+- an oscillating trend
+- on the logarithmic scale
+- an artifact
+- the deviations from
+- the spontaneous symmetry breaking transition
+- at the microscopic level
+- a fraction of, the fraction of, this fraction
+- can be describe as
+- the increment of
+- uttered word
+- express an open-ended set of meanings
+- to concretise
+- ever growing or changing
+- empirical attempts
+- facilitate a solution
+- engages fields as diverse as
+- aggregated information
+- direct the dynamic of norm formation
+- evolve shared social conventions
+- **collective behavior**
+- Prominent theory of
+- institutional mechanisms
+
+
+## Vocabularies
+- orchestrate
+- bootstrap
+- revolutionize(verb)
+- ontologies
+- negotiate
+- inherit
+- scratch
+- converse
+- Phenomenology
+- synonym and homonyms
+- subsequent
+- spontaneously
+- negligible
+- neglect
+- versus
+- progressively
+- presumably
+- concretise
+- presuppose 提前假设
