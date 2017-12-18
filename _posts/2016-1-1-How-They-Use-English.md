@@ -23,6 +23,16 @@ tags:
 - language arises and develops presumably
 - This question engages fields as diverse as linguistics, sociology, and cognitive science.
 - How do shared conventions emerge in complex decentralized social systems?
+- There is widespread interest in xx.
+- Several difficulties have limited prior empirical research in this area.
+- and their cumulative pay was updated accordingly
+- local groups of coordinated individuals emerged and competed for dominance
+- The ecology evolved quite differently in xx situation
+- After the initial transient a dominant convention rapidly emerged, breaking the symmetry with its competitors and shifting the population into a "winner take all" regime.
+- the dynamics converged on a global conventions
+- consistent results were found for each of the topologies
+- Language is a very complex human behaviour, which results from interactions among a population of individuals, who in turn interact with their environment
+- Language continuously changes over time by adapting to the environment and the individuals
 
 ## Phrases
 - a rather sudden transition
@@ -38,6 +48,7 @@ tags:
 - scale up to
 - artificial semiotic
 - hard to come by
+- influential paper
 - emergence of
 - a global conventions
 - sth. overtakes all others
@@ -46,6 +57,7 @@ tags:
 - scaling laws
 - how far the technology will carry
 - linguistic coherence
+- at the two extremes
 - how conventions may develop
 - any other kind of entity
 - retrieves a word from its inventory
@@ -89,6 +101,31 @@ tags:
 - **collective behavior**
 - Prominent theory of
 - institutional mechanisms
+- a compelling alternative approach
+- systematic empirical insight
+- endogenously form in larger populations
+- consistent with
+- a broad range of
+- ranging from sth to sth
+- rapid growth of universally shared social conventions
+- representative(alternative) network configurations
+- fall within the range
+- assigned to
+- entire duration of the game
+- Throughout all of the
+- dominant local convention
+- endogenously formed groups
+- impeded the emergence of global conventions
+- consistently coordinate with new partners
+- a local perturbation can amplify as it propagates
+- eliminated all other alternatives
+- as the ecologies evolved
+- became increasingly exponential
+- informational controls
+- rule out
+- produce clusters of coherent
+- semantic annotation of images
+- from the above exposition
 
 
 ## Vocabularies
@@ -99,7 +136,10 @@ tags:
 - negotiate
 - inherit
 - scratch
+- profitable
 - converse
+- advocate
+- moderately
 - Phenomenology
 - synonym and homonyms
 - subsequent
@@ -111,3 +151,12 @@ tags:
 - presumably
 - concretise
 - presuppose 提前假设
+- compelling
+- speculation
+- prototypical
+- unintentionally
+- subsequent
+- decisively
+- decelerated
+- inhibit
+- replication
