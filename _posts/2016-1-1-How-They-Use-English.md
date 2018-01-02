@@ -25,6 +25,7 @@ tags:
 - How do shared conventions emerge in complex decentralized social systems?
 - There is widespread interest in xx.
 - Several difficulties have limited prior empirical research in this area.
+- but further analysis along this line is left for the future
 - and their cumulative pay was updated accordingly
 - local groups of coordinated individuals emerged and competed for dominance
 - The ecology evolved quite differently in xx situation
@@ -33,16 +34,51 @@ tags:
 - consistent results were found for each of the topologies
 - Language is a very complex human behaviour, which results from interactions among a population of individuals, who in turn interact with their environment
 - Language continuously changes over time by adapting to the environment and the individuals
+- these weights are adaptive
+- In particular, the weights of connections between agents differentiate the probabilities of their mutual communication.
+- the above rules greatly reduce computational complexity, but are to some extent artificial
+- the model quickly reaches the regime
+- one can thus distinguish three phases
+- some very basic characteristics of human languages could be reproduced within our model.
+- In this case our model does not reach complete synchronization but remains trapped in a multi-language state.
+- Adaptively rewiring the links can happen in the real world. usually pepole are more likely to maintain a social connection with similar views, which is also known as homophily.
+- We found that network evolution is dominated by a combination of effects arising from network topology itself and the organizational structure in which the network is embedded
+- The structure of the network and the distribution of
+opinions over the population evolve towards a state where the population is divided into disconnected communities whose agents share the same opinion
+-  In spite of the simplicity of the evolution rules, the population can reach a variety of social patterns, which range from splitting into two communities of similar sizes and opposite opinions, to a single large community with homogeneous opinion.
+- any pair of agents can potentially interact
+- the network is split into disconnected subsets
+- As  a  result,  all  the  re-alizations  are  represented  by  dots  in  a  rather  compact  cloud
+- a clear boundary between the three classes cannot beunambiguously drawn
 
 ## Phrases
 - a rather sudden transition
 - a self-organizing communication systems
 - a microscopic model
+- asymptotic state
+- the time dependence of something
+- in their lexicons
+- drive the dynamics
+- give rise to
+- Close-up
+- in this intermediate regime
+- concentrated （particularly） on
+- The population is divided into
+- the preference due to successful communication in the past
+- （enter a) single-language regime and multi-language regime
+- analogous data
+- dynamically equivalent
 - a macro phenomenon
+- outside his neighborhood
+- communication attempts
 - autonomous agents
+- the rapidly progressing extinction
+- pairwise negotiation
 - performing language games
 - non-trivial
 - scale-invariant
+- self-organizing process
+- drastically simplifies
 - the distribution of competing synonyms
 - shared conventions
 - scale up to
@@ -80,6 +116,7 @@ tags:
 - the single realization
 - be consistent with
 - an oscillating trend
+- roulette rule
 - on the logarithmic scale
 - an artifact
 - the deviations from
@@ -119,6 +156,7 @@ tags:
 - consistently coordinate with new partners
 - a local perturbation can amplify as it propagates
 - eliminated all other alternatives
+- become identical
 - as the ecologies evolved
 - became increasingly exponential
 - informational controls
@@ -126,33 +164,52 @@ tags:
 - produce clusters of coherent
 - semantic annotation of images
 - from the above exposition
-
+- imposed by hand
+- mimic certain features of social interactions
+- monolingual state
+- linguistic synchronization is quickly reached inside clusters
+- the greater the intensity of sth
+- rigorous derivation
+- identical agent
+- complete synchronization
+- is not consistent with
+- such a discrepancy
+- sufficiently small
+- underlying graph
+- modified model
 
 ## Vocabularies
 - orchestrate
 - bootstrap
 - revolutionize(verb)
 - ontologies
+- accidental
 - negotiate
 - inherit
+- indication
 - scratch
 - profitable
 - converse
 - advocate
 - moderately
+- interplay
 - Phenomenology
 - synonym and homonyms
+- asymptotically
+- dissolve
 - subsequent
 - spontaneously
 - negligible
 - neglect
 - versus
 - progressively
+- inconclusive
 - presumably
 - concretise
 - presuppose 提前假设
 - compelling
 - speculation
+- disintegrate
 - prototypical
 - unintentionally
 - subsequent
@@ -160,3 +217,19 @@ tags:
 - decelerated
 - inhibit
 - replication
+
+## Naming Game 从属于和相关
+- opinion dynamics
+- language dynamics
+- iterated learning model
+- opinion formation model
+- social interaction model
+- final convergence
+- dynamic of linguistic
+- coarsening dynamics
+- collective behavior
+
+## 对全局收敛的叫法：
+- reaches a consensus state
+- linguistic convention
+- final configuration
