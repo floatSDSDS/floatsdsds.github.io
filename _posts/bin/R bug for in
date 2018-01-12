@@ -1,0 +1,29 @@
+NG.attr<-list()
+for (i.type in 1:(length(.turns)-1)) {
+  NG.attr[[i.type]]<-list()
+  for (i.turn in 1:.turns[i.type]) {
+
+NG.attr[[i.type]][[i.turn]]<-list(
+    n.iter=length(NGB[[i.type]][[i.turn]]$sumWord),
+    networks=setNames(.prob.network,names(.turns)),
+    size.network=.size.network,
+    len.Dictionary=.len.dictionary,
+    propSelct=ifelse(.flag.propSelectHear,"Proportional Selection","Random"),
+    listenP.weight=ifelse(.flag.listenP.weight,"always listen","depends on relationship"),
+    how2addEdge=ifelse(.flag.how2addEdge,"Random","Friend's Friends"),
+    BFriendAgain=ifelse(.flag.BfriendAgain,"Can Rebuild Relationships","Break up forever"),
+    Inclination=ifelse(.flag.inclination,"committed agent","agent's commitment doesn't matter"),
+    weight.Consensus=.how2Consensus,
+    weight.unConsensus=.fade.unConsensus,
+    para.p2fadeWeight=.para.p2fadeWeight,
+    when2addEdge=.threshold.When2addEdge,
+    p.BFriendAgain=.p.BfriendAgain
+
+)
+  }}
+
+
+1:length(.turns)-1
+
+Error in NG.attr[[i.type]] <- list() :
+  attempt to select less than one element in integerOneIndex
