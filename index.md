@@ -9,11 +9,11 @@ To give the vistors behind a 5-inch screen a little convenience, let's start wit
 
 I hate pirated software, instead, I seek for light weight free tools. If you are looking for an alternative, feel free to info me anytime.
 
-I'm doing some translate work about R, from English to Chinese. I would be gald if someone would point out my errors or even join in.
+I'm doing some translate work about R and some other English documents, from English to Chinese. I would be gald if someone would point out my errors or even join in.
 
 **I am responsible for everything I wrote and I love everything I create.**
 
-**News** I have just stepped into the research area for little more than a year as an undergraduate, still feel shy to introduce myself as an entry-level data scientist, but I have to say it was a meaningful and fulfill time that give me faith to take research as an career. My research interest including Graph Mining and social networks. If you want to know more about me please check on my [CV](https://github.com/floatSDSDS/floatsdsds.github.io/raw/master/_data/LuFANNIERA-PHD.pdf).
+**News** Looking for RA/PhD Positions in Graph Mining and its applications, either in Social or Transportation Networks. If you feel interested and want to know more about me, please check on my [CV](https://github.com/floatSDSDS/floatsdsds.github.io/raw/master/_data/LuFANRA-PHD1801.pdf).
 
 floatsd
 
