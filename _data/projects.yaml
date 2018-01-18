@@ -3,10 +3,10 @@
   image: https://raw.githubusercontent.com/floatSDSDS/floatsdsds.github.io/master/images/Project_GeoCUI.png
   completed: true
 
-- title: DJI Summercamp
-  url: https://floatsdsds.github.io/posts
+- title: DJI 2016 Robomaster Summercamp Championship
+  url: https://v.qq.com/x/page/d0385r2rog6.html
   image: https://gogojjh.github.io/project/images/post-rm-playing-m100.jpg
-  completed: false
+  completed: true
 
 - title: Video Car Tracker
   url: https://floatsdsds.github.io/posts
@@ -18,7 +18,7 @@
   image: https://floatsd.files.wordpress.com/2016/05/e5b9bbe781afe789872.jpg
   completed: true
 
-- title: Linear Controller
+- title: Linear Controller Evaluater
   url: https://floatsdsds.github.io/posts
   image: https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/images/Project_Linear%20Controller%20Evaluator.png?raw=true
   completed: false
