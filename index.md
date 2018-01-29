@@ -13,8 +13,8 @@ I'm doing some translate work about R and some other English documents, from Eng
 
 **I am responsible for everything I wrote and I love everything I create.**
 
-
-**News** <font color=#F08080> Looking for RA/PhD Positions in Graph Mining and its applications, either in Social or Transportation Networks. If you feel interested and want to know more about me, please check on my </font> [CV](https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/_data/LuFANRA-PHD1801.pdf).
+<table><tr><td bgcolor=PowderBlue>这里的背景色是：PowderBlue，  十六进制颜色值： #B0E0E6，rgb(176, 224, 230)</td></tr></table>
+**News**  *Looking for RA/PhD Positions in Graph Mining and its applications, either in Social or Transportation Networks. If you feel interested and want to know more about me, please check on my*{: style="color: #F08080"} [CV](https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/_data/LuFANRA-PHD1801.pdf).
 
 
 floatsd
