@@ -13,7 +13,9 @@ I'm doing some translate work about R and some other English documents, from Eng
 
 **I am responsible for everything I wrote and I love everything I create.**
 
-**News** <b>Looking for RA/PhD Positions in Graph Mining and its applications, either in Social or Transportation Networks. If you feel interested and want to know more about me, please check on my</b> [CV](https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/_data/LuFANRA-PHD1801.pdf).
+
+**News** <font color=#F08080> Looking for RA/PhD Positions in Graph Mining and its applications, either in Social or Transportation Networks. If you feel interested and want to know more about me, please check on my </font> [CV](https://github.com/floatSDSDS/floatsdsds.github.io/blob/master/_data/LuFANRA-PHD1801.pdf).
+
 
 floatsd
 
